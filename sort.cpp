@@ -94,7 +94,7 @@ int main(int argc,char** argv){
     std::vector<int> a{4, 3, 9, 10, 1, 2};
     merge_sort(a);
     for(int& b : a){
-        std::cout << b << ",";
+        std::cout << b << ",11";
     }
     return 1;
 }
